@@ -1889,7 +1889,7 @@ nav{
 
 /* ----- Mobile Screen ----- */
 
-@media  screen and (max-width:600px) {
+@media  screen and (min-width:300px) and  (max-width:600px) {
 
         .mainbox{
              width: 300px;
@@ -2215,139 +2215,6 @@ nav{
 
       
       
-}
-
-
-
-
-/* SECTION */
-.skill {
-    width: 100%;
-    min-height: 100vh;
-    padding: 60px 8%;
-    background: #0f0f0f;
-    color: white;
-}
-
-.skill h1 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-
-/* GRID CONTAINER */
-.skills-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-}
-
-/* SKILL BOX */
-.skillbox {
-    background: #1a1a1a;
-    padding: 25px;
-    border-radius: 15px;
-    transition: 0.3s ease;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-}
-
-.skillbox:hover {
-    transform: translateY(-8px);
-    background: #222;
-}
-
-/* ICON */
-.skillbox p {
-    font-size: 40px;
-    margin-bottom: 15px;
-    color: #00bcd4;
-}
-
-/* TITLE */
-.skillbox h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-/* PROGRESS BACKGROUND */
-.percentage {
-    width: 100%;
-}
-
-.percentline,
-.skill-progress {
-    width: 100%;
-    height: 8px;
-    background: #333;
-    border-radius: 50px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* PROGRESS FILL */
-.percentline::after,
-.skill-progress::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 0;
-    background: linear-gradient(90deg, #00bcd4, #2196f3);
-    border-radius: 50px;
-    animation: fillBar 2s ease forwards;
-}
-
-/* Individual Widths */
-.percentlinecss::after { width: 85%; }
-.percentlinejs::after { width: 70%; }
-.percentlinereact::after { width: 75%; }
-.percentlinenode::after { width: 70%; }
-.percentlineboot::after { width: 85%; }
-
-/* If using skill-progress data attribute */
-.skill-progress::after {
-    width: attr(data-progress %); /* fallback handled below */
-}
-
-/* Fallback manual width */
-.skillbox1 .skill-progress::after { width: 90%; }
-
-/* Animation */
-@keyframes fillBar {
-    from { width: 0; }
-}
-
-/* RANGE INPUT STYLE */
-.skillbox8 input[type="range"] {
-    width: 100%;
-    accent-color: #00bcd4;
-}
-
-/* ---------------- RESPONSIVE ---------------- */
-
-/* Tablets */
-@media (max-width: 992px) {
-    .skills-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-    .skills-container {
-        grid-template-columns: 1fr;
-    }
-
-    .skill h1 {
-        font-size: 30px;
-    }
-
-    .skillbox {
-        padding: 20px;
-    }
 }
 
 
