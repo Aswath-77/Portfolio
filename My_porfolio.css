@@ -857,8 +857,8 @@ nav{
         padding-right: 20px;
         border-radius: 10px;
         border: none;
-        background-color: rgb(4, 180, 180,0.7);
-        color: white;
+        background-color: rgb(0, 207, 255, 0.8);
+    color: whitesmoke;
         margin-top: 20px;
         /* transition: all 1s; */
         font-family: "Jost", sans-serif;
@@ -1140,7 +1140,7 @@ nav{
 
 .category-header h3 {
     font-size: 28.8px;
-    color: white;
+    color: rgb(255, 255, 255,0.8);
     margin: 0;
 }
 
@@ -1151,7 +1151,7 @@ nav{
 }
 
 .skill-card {
-    background-color: rgba(1, 42, 51, 0.4);
+    background-color:  rgba(0, 58, 71, 0.15);;
     backdrop-filter: blur(10px);
     padding: 24px;
     border-radius: 20px;
@@ -1159,6 +1159,23 @@ nav{
   transition: all 0.4s;
   cursor: pointer;
 
+}
+
+.section-subtitle{
+        color: rgb(255, 255, 255,0.8);
+}
+
+.section-title {
+   
+  font-size: 40px;
+    background-image: linear-gradient(to right, rgb(0, 84, 112), grey);
+    background-clip: text;
+    color: transparent;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    transition: all 0.6s ease-in-out;
 }
 
 .skill-card:hover {
@@ -1743,8 +1760,8 @@ nav{
       .home-iconbox button{
               height: 45px;
               width: 45px;
-              border-radius: 5px;
-              padding-bottom: 5px;
+              border-radius: 7px;
+              padding-bottom: 0px;
       }
 
       .home-iconbox{
@@ -1813,18 +1830,19 @@ nav{
 
       .About{
               padding: 10px;
+              padding-top: 50px;
       }
 
       .About-h1{
-              font-size: 30px;
+              font-size: 35px;
       }
 
       .about-content h1{
-               font-size: 33px;
+               font-size: 35px;
       }
 
       .about-content h3{
-              font-size: 18px;
+              font-size: 20px;
       }
 
 
@@ -1859,9 +1877,9 @@ nav{
       .about-btn1{
              font-size: 13px;
              margin-top: 10px;
-             padding: 5px;
-             padding-left: 15px;
-             padding-right: 15px;
+             padding: 10px;
+               
+            
       }
       
       .about-btn2{
@@ -1872,9 +1890,7 @@ nav{
               font-size: 16px;
       }
 
-      .about-content p{
-          font-size: 13px;
-      }
+   
 
       .about-content{
          padding: 15px;
@@ -1927,10 +1943,7 @@ nav{
           width: 250px;
 }
 
-.about-btn1{
-         padding: 10px;
-         font-size: 12px;
-}
+
 
 
 
@@ -2005,7 +2018,7 @@ nav{
       }
 
      .skills-section{
-        padding-top: 20px;
+        padding-top: 50px;
      }
 
      .category-header h3{
@@ -2014,6 +2027,10 @@ nav{
 
      .section-title{
         font-size: 30px;
+     }
+
+     .category-header i {
+        font-size: 25px;
      }
 
 
