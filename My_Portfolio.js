@@ -1,8 +1,6 @@
-
-
- // ===================================
-    // Skills Progress Animation
-    // ===================================
+//  ===================================
+//     Skills Progress Animation
+//     ===================================
     function animateSkillBars() {
         const skillProgress = document.querySelectorAll('.skill-progress');
         

@@ -892,7 +892,7 @@ nav{
 
 
 .about-left{
-          border: 1px solid white;
+          /* border: 1px solid white; */
           display: flex;
           justify-content: center;
           align-items: center;
@@ -901,7 +901,7 @@ nav{
 }
 
 .inner-box{
-          border: 1px solid red;
+          /* border: 1px solid red; */
           height: 400px;
           width: 400px;
           display: flex;
@@ -1074,443 +1074,189 @@ nav{
 
 
 
-/*------- skill ------- */
+/*------- skills Section  ------- */
 
 
 .skill{
         width: 100%;
           background-image: radial-gradient( rgb(1, 22, 42) 5% , black );
           padding: 30px;
-          /* border: 1px solid white; */
+         
          
           
 }
 
-.skill h1{
-        color: rgb(2, 131, 131);
-        font-size: 50px;
-        text-align: center;
-        margin-top: 30px;
-        transition: all 0.5s ease-in-out;
+
+
+.skills-section {
+    padding: var(--section-padding);
+    /* background: var(--dark-bg); */
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.section-header{
+           display: flex;
+           color: antiquewhite;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 5px;
+}
 
 
 
+.skill-category {
+    background: var(--dark-card);
+    padding: 40px;
+  border-radius: 12px;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.skill-category:hover {
+    border-color:blue;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
    
 }
 
-.skill h1{
-        animation-name: skill-h1;
-        animation-delay: 0s;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-      
-         /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-               opacity: 0;
-               /* contain: paint; */
-        
+.category-header i {
+    font-size: 32px;
+    color: white;
 }
 
-@keyframes skill-h1{
-         from{
-              /* transform: translateX(-100px); */
-              transform: scale(0);
-              opacity: 0;
-             
-
-         }
-
-         to{
-              /* transform: translateX(0px); */
-              transform: scale(1);
-              opacity: 1;
-         }
+.category-header h3 {
+    font-size: 28.8px;
+    color: white;
+    margin: 0;
 }
 
-
-
-.skills-container{
-                
-                /* border: 1px solid yellow;  */
-                padding: 10px;
-               display: grid;
-               grid-template-columns: auto auto auto auto;
-               justify-content: center;
-               align-items: center;
-               gap: 40px;
-               margin: 50px 0px 50px 0px;
-
-           
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
 }
 
-.skillbox{
-        width: 300px;
-        height: 150px;
-        /* border: 1px solid white; */
-        border-radius: 5px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-       
-        background-color: rgba(94, 94, 94, 0.1);
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
-        transition: all 0.1s ease-in-out;
-}
-
-.skillbox:hover{
-         /* transform: translateY(-20px); */
-         border: 1px solid rgb(1, 66, 66);
-         box-shadow: 0px 0px 1px cyan;
-         scroll-behavior: smooth;
-          background-color: rgba(94, 94, 94, 0.2);
-          /* transform: scale(1.2); */
-}
-
-.skillbox p{
-        color: white;
-        font-size: 25px;
-        margin: 0px;
-        filter: brightness(60%);
+.skill-card {
+    background-color: rgba(1, 42, 51, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 24px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+  transition: all 0.4s;
+  cursor: pointer;
 
 }
 
-.skillbox1{
-        animation: skillbox1;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
+.skill-card:hover {
+
+       background-color: rgba(1, 42, 51, 0.7); 
+       border: 1px solid rgb(1, 255, 170,0.2);
+       box-shadow: 0px 0px 5px skyblue;
+   
 }
 
-@keyframes skillbox1{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
+.skill-icon {
+    width: 60px;
+    height: 60px;
+   
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
 }
 
-.skillbox2{
-        animation: skillbox2;
-        animation-duration: 1s;
-        animation-delay: 0.2s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
+.skill-icon i {
+    font-size: 32px;
+    /* color: red; */
+    filter: brightness(50%);
 }
 
-@keyframes skillbox2{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
+.skill-card h4 {
+    font-size: 19.2px;
+    color: white;
+    margin-bottom: 16px;
 }
 
-.skillbox3{
-        animation: skillbox3;
-        animation-duration: 1s;
-        animation-delay: 0.4s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background: rgb(0, 45, 63);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
 }
 
-@keyframes skillbox3{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
+.skill-progress {
+    height: 100%;
+    background: rgb(4, 180, 180);
+    border-radius: 4px;
+    width: 0;
+    transition: width 1s ease;
 }
 
-.skillbox4{
-        animation: skillbox4;
-        animation-duration: 1s;
-        animation-delay: 0.6s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
+.skill-percent {
+    font-size: 14.4px;
+    color: white;
+    font-weight: 600;
+    opacity: 0.5;
 }
 
-@keyframes skillbox4{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
-}
-
-
-.skillbox5{
-        animation: skillbox5;
-        animation-duration: 1s;
-        animation-delay: 0.6s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
-}
-
-@keyframes skillbox5{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
-}
-
-.skillbox6{
-        animation: skillbox6;
-        animation-duration: 1s;
-        animation-delay: 0.4s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
-}
-
-@keyframes skillbox6{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
-}
-
-.skillbox7{
-        animation: skillbox7;
-        animation-duration: 1s;
-        animation-delay: 0.2s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 40%; */
-      opacity: 0;
-}
-
-@keyframes skillbox7{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
-}
-
-
-.skillbox8{
-        animation: skillbox8;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        animation-iteration-count:1;
-           /* animation-timeline: view();
-      animation-range: entry 20% cover 30%; */
-      opacity: 0;
-}
-
-@keyframes skillbox8{
-
-      from{
-              transform: scale(0);
-              opacity: 0;
-      }
-
-      to{
-             transform: scale(1);
-             opacity: 1;
-      }
-
-}
-
-.skillbox1 p{
+.html-i{
         color: red;
-        transition: all 0.5s ease-in-out;
 }
 
-.skillbox h2{
-         color: rgb(255, 255, 255,0.7);
-         font-size: 25px;
-         display: flex;
-         justify-content: space-between;
-         align-items: end;
-         transition: all 0.5s ease-in-out;
-
-}
-
-.skillbox h2 span{
-         font-size: 15px;
-         
-         color: grey;
-}
-
-.percentage{
-        height: 5px;
-        width: 100%;
-       
-        background-color: white;
-        border-radius: 10px;
-          display: flex;
-         align-items: center;
-         justify-content: start;
-         transition: all 0.5s ease-in-out;
-       
-      
+.css-i{
+        color: purple;
 }
 
 
-.percentline{
-         height: 5px;
-         width: 90%;
-         background-color: rgb(4, 127, 127);
-         border-radius: 10px;
-         display: flex;
-         align-items: center;
-         justify-content: end;
-       
-        
-}
-
-.percentline{
-        animation-name: percent;
-        animation-delay: 0s;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-      
-         /* animation-timeline: view();
-      animation-range: entry 10% cover 20%; */
-               opacity: 0;
-               transition: all 0.5s ease-in-out;
-               /* contain: paint; */
-        
-}
-
-@keyframes percent{
-         from{
-              transform: translateX(-100px);
-              opacity: 0;
-             
-
-         }
-
-         to{
-              transform: translateX(0px);
-              opacity: 1;
-         }
-}
-
-.per-orbit{
-        height: 11px;
-        width: 11px;
-        border-radius: 50%;
-        background-color: rgb(4, 127, 127);
-        
-}
-
-
-.skillbox2 p{
-        color: rgb(154, 2, 154);
-}
-
-.percentlinecss{
-        width: 85%;
-}
-
-.skillbox3 p{
+.js-i{
         color: yellow;
 }
 
-.percentlinejs{
-        width: 70%;
+.react-i{
+       color: rgb(4, 117, 162);
 }
 
-.percentlinereact{
-        width: 75%;
+.node-i{
+
+      color: rgb(1, 169, 1);
 }
 
-.skillbox4 p{
-        color: violet;
+.boot-i{
+
+      color: rgb(18, 18, 239);
 }
 
-.skillbox5 p{
-        color: lightgreen;
+.mysql-i{
+       color: aqua;
 }
 
-.percentlinenode{
-        width: 70%;
+.oraclesql-i{
+       color: red;
 }
 
-.skillbox6 p{
+.git-i{
+       color: white;
+}
+
+.mongo-i{
         color: green;
-}
-
-.percentlinemongo{
-        width: 75%;
-}
-
-.skillbox7 p{
-        color: blueviolet;
-}
-
-.percentlineboot{
-        width: 85%;
 }
 
 
@@ -1889,7 +1635,7 @@ nav{
 
 /* ----- Mobile Screen ----- */
 
-@media  screen and (min-width:300px) and  (max-width:600px) {
+@media  screen and (max-width:600px) {
 
         .mainbox{
              width: 300px;
@@ -1964,28 +1710,29 @@ nav{
       }
 
       .name h5{
-              font-size: 11px;
+              font-size: 13px;
               margin-right: 10px;
       }
 
       .home-contentbox h1{
-              font-size: 33px;
+              font-size: 37px;
       }
 
        .home-contentbox h2{
-              font-size: 33px;
+              font-size: 37px;
       }
 
       .home-contentbox p{
               width: 80%;
-              font-size: 12px;
+              font-size: 13px;
               margin-top: 5px;
       }
 
       .home-btn button{
-              font-size: 8px;
-              padding-left: 10px;
-              padding-right: 10px;
+              font-size: 12px;
+              /* padding-left: 10px;
+              padding-right: 10px; */
+              padding: 10px;
       }
 
       .home-btn{
@@ -1994,8 +1741,8 @@ nav{
       }
 
       .home-iconbox button{
-              height: 30px;
-              width: 30px;
+              height: 35px;
+              width: 35px;
               border-radius: 5px;
               padding-bottom: 5px;
       }
@@ -2080,6 +1827,7 @@ nav{
               font-size: 15px;
       }
 
+
       .about-content p{
               width: 100%;
               font-size: 11px;
@@ -2124,6 +1872,18 @@ nav{
               font-size: 16px;
       }
 
+      .about-content p{
+          font-size: 13px;
+      }
+
+      .about-content{
+         padding: 15px;
+      }
+
+      .point{
+         display: none;
+      }
+
       .ibox1{
       
         transform: translateZ(100px);
@@ -2162,6 +1922,16 @@ nav{
          font-size: 50px;
 }
 
+.inner-box{
+          height: 250px;
+          width: 250px;
+}
+
+.about-btn1{
+         padding: 10px;
+         font-size: 12px;
+}
+
 
 
  
@@ -2170,7 +1940,7 @@ nav{
 
       /* ---------------- Skills ------------ */
 
-      .skills-container{
+      /* .skills-container{
              display: grid;
              grid-template-columns: auto;
              margin: 30px 0px 30px 0px;
@@ -2210,7 +1980,37 @@ nav{
       .per-orbit{
               height: 9px;
               width: 9px;
+      } */
+
+
+      .skill{
+          padding: 0px;
       }
+
+      .skill-category {
+             padding: 35px;
+      }
+
+      .skill-icon{
+             height: 50px;
+             width: 50px;
+      }
+
+      .skill-card h4{
+              font-size: 17px;
+      }
+
+      .skill-percent{
+              font-size: 14px;
+      }
+
+     .skills-section{
+        padding-top: 20px;
+     }
+
+     .category-header h3{
+        font-size: 20px;
+     }
 
 
       
