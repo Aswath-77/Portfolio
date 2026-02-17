@@ -1710,26 +1710,26 @@ nav{
       }
 
       .name h5{
-              font-size: 13px;
+              font-size: 17px;
               margin-right: 10px;
       }
 
       .home-contentbox h1{
-              font-size: 37px;
+              font-size: 45px;
       }
 
        .home-contentbox h2{
-              font-size: 37px;
+              font-size: 45px;
       }
 
       .home-contentbox p{
-              width: 80%;
-              font-size: 13px;
+              width: 90%;
+              font-size: 16px;
               margin-top: 5px;
       }
 
       .home-btn button{
-              font-size: 12px;
+              font-size: 13px;
               /* padding-left: 10px;
               padding-right: 10px; */
               padding: 10px;
@@ -1741,8 +1741,8 @@ nav{
       }
 
       .home-iconbox button{
-              height: 35px;
-              width: 35px;
+              height: 45px;
+              width: 45px;
               border-radius: 5px;
               padding-bottom: 5px;
       }
@@ -1752,7 +1752,7 @@ nav{
       }
 
       .home-iconbox i{
-             font-size: 10px;
+             font-size: 15px;
              /* margin-bottom: 5px; */
              
       }
@@ -1816,21 +1816,21 @@ nav{
       }
 
       .About-h1{
-              font-size: 25px;
+              font-size: 30px;
       }
 
       .about-content h1{
-               font-size: 27px;
+               font-size: 33px;
       }
 
       .about-content h3{
-              font-size: 15px;
+              font-size: 18px;
       }
 
 
       .about-content p{
               width: 100%;
-              font-size: 11px;
+              font-size: 15px;
               padding-left: 10px;
               font-weight: 300;
       }
@@ -1857,7 +1857,7 @@ nav{
       }
 
       .about-btn1{
-             font-size: 10px;
+             font-size: 13px;
              margin-top: 10px;
              padding: 5px;
              padding-left: 15px;
@@ -2010,6 +2010,10 @@ nav{
 
      .category-header h3{
         font-size: 20px;
+     }
+
+     .section-title{
+        font-size: 30px;
      }
 
 
