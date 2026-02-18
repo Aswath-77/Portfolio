@@ -2041,42 +2041,48 @@ nav{
          display: none;
       }
 
+      .about-left{
+
+                padding-top: 70px;
+                padding-bottom: 70px;
+      }
+
       .ibox1{
       
-        transform: translateZ(100px);
+        transform: translateZ(120px);
 }
 
 .ibox2{
       
-          transform: translateZ(-100px) rotateY(180deg);
+          transform: translateZ(-120px) rotateY(180deg);
 }
 
 
 .ibox3{
        
-         transform: translateX(-100px) rotateY(-90deg);
+         transform: translateX(-120px) rotateY(-90deg);
 }
 
 
 
 .ibox4{
        
-          transform: translateX(100px) rotateY(90deg);
+          transform: translateX(120px) rotateY(90deg);
 }
 
 
 .ibox5{
       
-         transform: translateY(-100px) rotateX(90deg);
+         transform: translateY(-120px) rotateX(90deg);
 }
 
 .ibox6{
       
-         transform: translateY(100px) rotateX(-90deg);
+         transform: translateY(120px) rotateX(-90deg);
 } 
 
 .ibox i{
-         font-size: 50px;
+         font-size: 70px;
 }
 
 .inner-box{
