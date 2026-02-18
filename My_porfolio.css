@@ -430,7 +430,8 @@ nav{
      background-color: rgb(128, 128, 128,0.2);
      -webkit-backdrop-filter: blur(10px);
      backdrop-filter: blur(30px);
-     transition: all 0.5s;
+     transition: all 0.3s;
+     cursor: pointer;
 }
 
 
@@ -447,6 +448,7 @@ nav{
     border: 1px solid rgb(0,207,255,0.5);
      -webkit-backdrop-filter: blur(10px);
      backdrop-filter: blur(10px);
+     box-shadow: 0px 0px 10px cyan;
 
      transform: translateY(-3px);
 
@@ -669,9 +671,11 @@ nav{
 .About-h1{
         /* color: white; */
         font-size: 40px;
-        background-image: linear-gradient(to right, rgb(0, 84, 112) ,grey);
+        /* background-image: linear-gradient(to right, rgb(0, 84, 112) ,grey);
         background-clip: text;
-        color: transparent;
+        color: transparent; */
+
+        color: white;
         
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
@@ -679,6 +683,12 @@ nav{
   font-style: normal;
   transition: all 0.6s ease-in-out;
 
+}
+
+.About-h1 span {
+        border-bottom:  2px solid  rgb(0, 207, 255, 0.6);
+        
+        padding-bottom: 10px;
 }
 
 .About-h1{
@@ -733,6 +743,10 @@ nav{
         transition: all 0.6s ease-in-out;
        
 
+}
+
+.about-content a{
+        text-decoration: none;
 }
 
 .about-content{
@@ -802,9 +816,14 @@ nav{
   font-weight:400;
   font-style: normal;
   transition: all 0.6s ease-in-out;
+  color: rgb(143, 143, 143);
+ 
 
 }
 
+.about-content p{
+        
+}
 .about-content p span{
          color: rgb(0,207,255,0.5);
          margin-right: 10px;
@@ -865,11 +884,12 @@ nav{
   font-optical-sizing: auto;
   font-weight:400;
   font-style: normal;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .about-btn1:hover{
-        background-color: rgb(4, 180, 180,0.9);
+        background-color: rgb(4, 180, 180,0.5);
+        transform: scale(1.02);
 }
 
 .about-btn1:active{
@@ -882,6 +902,12 @@ nav{
        margin-left: 20px;
        border: 1px solid rgb(175, 173, 173,0.3);
        backdrop-filter: blur(10px);
+      
+}
+
+.about-btn2 i{
+        font-size: 12px;
+        margin-right: 3px;
 }
 
 .about-btn2:hover{
@@ -1097,6 +1123,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 48px;
+     transition: all 0.5s ease-in-out;
 }
 
 .section-header{
@@ -1106,6 +1133,7 @@ nav{
            align-items: center;
            justify-content: center;
            gap: 5px;
+            transition: all 0.5s ease-in-out;
 }
 
 
@@ -1135,13 +1163,20 @@ nav{
 
 .category-header i {
     font-size: 32px;
-    color: white;
+    color: rgb(255, 255, 255,0.6);
+    
+
 }
 
 .category-header h3 {
     font-size: 28.8px;
-    color: rgb(255, 255, 255,0.8);
+    /* color: rgb(255, 255, 255,0.8); */
+    color: grey;
     margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .skills-grid {
@@ -1158,26 +1193,36 @@ nav{
     border: 2px solid transparent;
   transition: all 0.4s;
   cursor: pointer;
+   transition: all 0.5s ease-in-out;
 
 }
 
 .section-subtitle{
-        color: rgb(255, 255, 255,0.8);
+        color: rgb(0, 207, 255, 0.6);
+         transition: all 0.5s ease-in-out;
 }
 
 .section-title {
    
-  font-size: 40px;
-    background-image: linear-gradient(to right, rgb(0, 84, 112), grey);
+  font-size: 50px;
+     
     background-clip: text;
     color: transparent;
+    color: white;
     font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
-    transition: all 0.6s ease-in-out;
+    /* transition: all 0.6s ease-in-out; */
+     transition: all 0.5s ease-in-out;
+
 }
 
+.section-title span{
+       
+          border-bottom: 2px solid  rgb(0, 207, 255, 0.6);
+          padding-bottom: 10px;
+}
 .skill-card:hover {
 
        background-color: rgba(1, 42, 51, 0.7); 
@@ -1195,18 +1240,25 @@ nav{
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
+     transition: all 0.5s ease-in-out;
 }
 
 .skill-icon i {
     font-size: 32px;
     /* color: red; */
     filter: brightness(50%);
+     transition: all 0.5s ease-in-out;
 }
 
 .skill-card h4 {
     font-size: 19.2px;
-    color: white;
+    color: rgb(255, 255, 255,0.7);
     margin-bottom: 16px;
+     transition: all 0.5s ease-in-out;
+      font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
 }
 
 .skill-bar {
@@ -1216,14 +1268,16 @@ nav{
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 8px;
+     transition: all 0.5s ease-in-out;
 }
 
 .skill-progress {
     height: 100%;
-    background: rgb(4, 180, 180);
+    /* background: rgb(4, 180, 180); */
     border-radius: 4px;
     width: 0;
     transition: width 1s ease;
+        background: rgb(4, 180, 180, 0.7);
 }
 
 .skill-percent {
@@ -1660,7 +1714,7 @@ nav{
         }
 
         .portfolio{
-              font-size: 20px;
+              /* font-size: 25px; */
               margin: 0px;
         }
       .circle{
@@ -1705,11 +1759,11 @@ nav{
       }
 
       .portfolio{
-              font-size: 20px !important;
+              font-size: 25px !important;
       }
 
       .portfolio span{
-              font-size: 27px !important;
+              font-size: 35px !important;
       }
 
       .home-contentbox{
@@ -1746,7 +1800,7 @@ nav{
       }
 
       .home-btn button{
-              font-size: 13px;
+              font-size: 14px;
               /* padding-left: 10px;
               padding-right: 10px; */
               padding: 10px;
@@ -1758,8 +1812,8 @@ nav{
       }
 
       .home-iconbox button{
-              height: 45px;
-              width: 45px;
+              height: 40px;
+              width: 40px;
               border-radius: 7px;
               padding-bottom: 0px;
       }
@@ -1772,6 +1826,15 @@ nav{
              font-size: 15px;
              /* margin-bottom: 5px; */
              
+      }
+
+      .bar{
+             font-size: 25px;
+      }
+
+      .container-fluid{
+              padding-left: 25px;
+              padding-right: 25px;
       }
 
       .circle{
@@ -1839,10 +1902,12 @@ nav{
 
       .about-content h1{
                font-size: 35px;
+               color:  rgb(0, 207, 255, 0.6);
       }
 
       .about-content h3{
               font-size: 20px;
+              color: rgb(245, 245, 245,0.7);
       }
 
 
@@ -1850,8 +1915,10 @@ nav{
               width: 100%;
               font-size: 15px;
               padding-left: 10px;
-              font-weight: 300;
+              font-weight: 400;
+              color: grey;
       }
+
 
       .point{
               height: 7px;
@@ -1875,7 +1942,7 @@ nav{
       }
 
       .about-btn1{
-             font-size: 13px;
+             font-size: 14px;
              margin-top: 10px;
              padding: 10px;
                
@@ -2023,10 +2090,11 @@ nav{
 
      .category-header h3{
         font-size: 20px;
+
      }
 
      .section-title{
-        font-size: 30px;
+        font-size: 33px;
      }
 
      .category-header i {
