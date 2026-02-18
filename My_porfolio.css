@@ -1886,6 +1886,61 @@ nav{
       }
 
 
+     .home-iconbox button:hover{
+
+    /* background-color: rgb(0,207,255,0.1);
+    border: 1px solid rgb(0,207,255,0.5);
+     -webkit-backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px); */
+     box-shadow:none;
+
+     transform: translateY(0px);
+     border: 1px solid rgb(109, 108, 108, 0.5);
+    background-color: rgb(128, 128, 128, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
+
+
+}
+
+.round3{
+        width: 260px;
+        height: 260px;
+}
+
+.round2{
+
+       width: 240px;
+        height: 240px;
+        
+}
+
+.round1{
+
+       width: 220px;
+        height: 220px;
+        
+}
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+        .o1 {
+        height: 255px;
+        width: 255px;
+    }
+
+        .o2 {
+        height: 235px;
+        width: 235px;
+    }
+        .o3 {
+        height: 215px;
+        width: 215px;
+    }
+
 
       /* ----- About Page -------- */
 
@@ -1896,6 +1951,7 @@ nav{
       .About{
               padding: 10px;
               padding-top: 50px;
+              padding-bottom: 50px;
       }
 
       .About-h1{
@@ -2068,10 +2124,13 @@ nav{
 
       .skill{
           padding: 0px;
+          padding-top: 50px;
+          padding-bottom: 50px;
       }
 
       .skill-category {
              padding: 35px;
+             padding-top: 60px;
       }
 
       .skill-icon{
@@ -2088,7 +2147,7 @@ nav{
       }
 
      .skills-section{
-        padding-top: 50px;
+        
      }
 
      .category-header h3{
