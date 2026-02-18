@@ -59,7 +59,7 @@ nav{
       border-radius: 0px 0px 10px 10px;
       padding-right: 30px;
       padding-left: 30px;
-     background-image: linear-gradient(to Right, black 50%,rgb(67, 67, 67));
+     background-image: linear-gradient(to Right, black 50%,rgb(1, 22, 42));
       backdrop-filter: blur(5px);
 
       
@@ -1885,6 +1885,11 @@ nav{
              padding-top: 40px;
       }
 
+      .home-iconbox button{
+
+             border: 1px solid rgb(109, 108, 108, 0.2);
+      }
+
 
      .home-iconbox button:hover{
 
@@ -1941,6 +1946,9 @@ nav{
         width: 215px;
     }
 
+    .home-btn .bt2{
+            border: 1px solid rgb(211, 211, 211, 0.1);
+    }
 
       /* ----- About Page -------- */
 
@@ -1973,7 +1981,7 @@ nav{
               width: 100%;
               font-size: 15px;
               padding-left: 10px;
-              font-weight: 500;
+              font-weight: 400;
               color: grey;
       }
 
@@ -2010,6 +2018,13 @@ nav{
       
       .about-btn2{
               margin-left: 5px;
+              width: 150px;
+               border: 1px solid rgb(211, 211, 211, 0.1);
+               background-color: rgb(128, 128, 128, 0.2);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid rgb(211, 211, 211, 0.4); */
+    color: whitesmoke;
       }
 
       .about-content p span{
@@ -2065,8 +2080,8 @@ nav{
 }
 
 .inner-box{
-          height: 250px;
-          width: 250px;
+          height: 300px;
+          width: 300px;
 }
 
 
