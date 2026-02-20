@@ -1533,6 +1533,11 @@ nav{
            width: 100px;
 }
 
+.education-container button{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
 
 
 
@@ -2486,6 +2491,16 @@ nav{
 .education-content{
 
            margin-top: 0px;
+}
+
+.schoolname span{
+           color: rgb(172, 87, 251,0.4);
+           /* opacity: 0.7; */
+}
+
+.schoolname button{
+            color: rgb(172, 87, 251,0.4);
+            /* opacity: 0.7; */
 }
       
 }
