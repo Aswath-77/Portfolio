@@ -1508,12 +1508,12 @@ nav{
 .schoolname span{
 
           font-size: 18px;
-          color: rgb(172, 87, 251);
+          color: rgb(172, 87, 251,0.6);
 }
 
 .schoolname button{
           background-color:rgb(172, 87, 251,0.1) ;
-          color: rgb(172, 87, 251);
+          color: rgb(172, 87, 251,0.6);
           border:  1px solid rgb(172, 87, 251,0.2);
           height: 25px;
           width: 110px;
@@ -2412,7 +2412,7 @@ nav{
 }
 
 .education-container{
-        padding: 10px;
+        padding: 15px;
         padding-bottom: 50px;
         padding-top: 50px;
 }
@@ -2433,7 +2433,8 @@ nav{
           height: 25px;
           font-size: 14px;
           width: 105px;
-          padding-bottom: 1px;
+          /* padding-bottom: 1px; */
+          padding: 0px;
 }
       
 .education-content p{
@@ -2449,6 +2450,7 @@ nav{
 
 .college-cgpa{
          margin-top: 20px;
+       padding: 0px;
 }
 
 .schoolname button{
@@ -2456,6 +2458,7 @@ nav{
           height: 20px;
           font-size: 12px;
           width: 95px;
+          padding: 0px;
 }
 
 .school-per button{
@@ -2463,6 +2466,7 @@ nav{
           font-size: 12px;
           height: 20px;
           width: 90px;
+          padding: 0px;
 }
 
 .schoolname span{
