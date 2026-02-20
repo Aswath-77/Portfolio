@@ -2440,6 +2440,7 @@ nav{
           width: 105px;
           /* padding-bottom: 1px; */
           padding: 0px;
+          padding-top: 1px;
 }
       
 .education-content p{
@@ -2450,6 +2451,7 @@ nav{
           height: 25px;
           font-size: 13px;
           width: 100px;
+          padding-top: 2px;
          
 }
 
@@ -2464,6 +2466,7 @@ nav{
           font-size: 12px;
           width: 95px;
           padding: 0px;
+          padding-top: 1px;
 }
 
 .school-per button{
@@ -2472,6 +2475,7 @@ nav{
           height: 20px;
           width: 90px;
           padding: 0px;
+          padding-top: 1px;
 }
 
 .schoolname span{
