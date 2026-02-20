@@ -1447,7 +1447,7 @@ nav{
           display: flex;
           justify-content: center;
           align-items: center;
-          padding-bottom: 2px;
+        
 }
 
 .collegename div:hover{
@@ -2453,7 +2453,7 @@ nav{
 
 .college-cgpa{
          margin-top: 20px;
-       padding: 0px;
+      
 }
 
 .schoolname div{
