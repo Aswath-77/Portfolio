@@ -529,6 +529,7 @@ nav{
 
 }
 
+
 .circle img{
        height: 100%;
        width: 100%;
@@ -1369,6 +1370,7 @@ nav{
   font-style: normal;
   font-size: 50px;
   padding-bottom: 30px;
+  
 }
 
 
@@ -1433,7 +1435,7 @@ nav{
 
 
 
-.collegename div{
+.collegename button{
 
         
           color: rgb(0, 207, 255,0.9);
@@ -1450,7 +1452,7 @@ nav{
         
 }
 
-.collegename div:hover{
+.collegename button:hover{
 
            color: grey;
 }
@@ -1463,7 +1465,7 @@ nav{
 
 }
 
-.college-cgpa div{
+.college-cgpa button{
          background-color: rgba(90, 88, 88, 0.3);
          width: 120px;
          border: none;
@@ -1471,9 +1473,10 @@ nav{
          border-radius: 30px;
          height: 30px;
          border: 1px solid rgb(211, 211, 211,0.2);
-         display: flex;
+         /* display: flex;
          justify-content: center;
-         align-items: center;
+         align-items: center; */
+         /* padding: 2px; */
 }
 
 
@@ -1510,16 +1513,17 @@ nav{
 .schoolname span{
 
           font-size: 18px;
-          color: rgb(172, 87, 251,0.6);
+          color: rgb(0, 207, 255,0.5);
 }
 
-.schoolname div{
-          background-color:rgb(172, 87, 251,0.1) ;
-          color: rgb(172, 87, 251,0.6);
-          border:  1px solid rgb(172, 87, 251,0.2);
+.schoolname button{
+                   background-color: rgb(0, 207, 255,0.1);
+          color: rgb(0, 207, 255,0.5);
+          border: 1px solid rgb(0, 207, 255,0.2);
           height: 25px;
           width: 110px;
           font-size: 14px;
+          
         
 }
 
@@ -1528,7 +1532,7 @@ nav{
           color: rgb(198, 198, 198);
 }
 
-.school-per div{
+.school-per button{
 
            font-size: 14px;
            height: 25px;
@@ -2432,7 +2436,7 @@ nav{
           font-size: 17px;
 }
 
-.collegename div{
+.collegename button{
           height: 25px;
           font-size: 14px;
           width: 105px;
@@ -2443,7 +2447,7 @@ nav{
           font-size: 14px;
 }
 
-.college-cgpa div{
+.college-cgpa button{
           height: 25px;
           font-size: 13px;
           width: 100px;
@@ -2456,7 +2460,7 @@ nav{
       
 }
 
-.schoolname div{
+.schoolname button{
 
           height: 20px;
           font-size: 12px;
@@ -2464,7 +2468,7 @@ nav{
         
 }
 
-.school-per div{
+.school-per button{
 
           font-size: 12px;
           height: 20px;
@@ -2492,12 +2496,12 @@ nav{
 }
 
 .schoolname span{
-           color: rgb(172, 87, 251,0.4);
+          color: rgb(0, 207, 255, 0.5)
            /* opacity: 0.7; */
 }
 
-.schoolname div{
-            color: rgb(172, 87, 251,0.4);
+.schoolname button{
+            /* color: rgb(172, 87, 251,0.4); */
             /* opacity: 0.7; */
 }
       
