@@ -2473,6 +2473,10 @@ nav{
           font-size: 12px;
           height: 20px;
           width: 90px;
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2px;
         
 }
 
@@ -2498,10 +2502,7 @@ nav{
 .schoolname span{
           color: rgb(0, 207, 255, 0.5);
            /* opacity: 0.7; */
-           display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 2px;
+          
 }
 
 .schoolname button{
