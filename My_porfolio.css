@@ -2262,20 +2262,30 @@ nav{
 
      .home-iconbox button:hover{
 
-    /* background-color: rgb(0,207,255,0.1);
-    border: 1px solid rgb(0,207,255,0.5);
-     -webkit-backdrop-filter: blur(10px);
-     backdrop-filter: blur(10px); */
-     box-shadow:none;
+  
+     box-shadow:0px 0px 0px black;
 
      transform: translateY(0px);
      border: 1px solid rgb(109, 108, 108, 0.5);
     background-color: rgb(128, 128, 128, 0.2);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(30px);
+    
+    /* backdrop-filter: blur(30px); */
 
 
 }
+
+/* .home-iconbox button:hover{
+
+    background-color: rgb(0,207,255,0.1);
+    border: 1px solid rgb(0,207,255,0);
+     -webkit-backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px);
+     box-shadow: 0px 0px 0px cyan;
+
+     transform: translateY(0px);
+
+
+} */
 
  .home-iconbox button:active{
          transform: scale(0.5);
@@ -2653,6 +2663,17 @@ nav{
           font-size: 20px;
           transition: all 0.3s ease-in-out;
  }
+
+
+ /* Home  */
+
+ .home-iconbox button:active{
+         transform: scale(0.5);
+      }
+
+      /* Home  */
+
+
 }
 
 
