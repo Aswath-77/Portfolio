@@ -823,6 +823,8 @@ nav{
   font-style: normal;
   transition: all 0.6s ease-in-out;
   color: rgb(143, 143, 143);
+
+
  
 
 }
@@ -886,11 +888,14 @@ nav{
     color: whitesmoke;
         margin-top: 20px;
         /* transition: all 1s; */
-        font-family: "Jost", sans-serif;
+        /* font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight:400;
-  font-style: normal;
+  font-style: normal; */
   transition: all 0.3s ease-in-out;
+   font-family: "Varela Round", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 
    
 }
@@ -916,6 +921,7 @@ nav{
 .about-btn2 i{
         font-size: 12px;
         margin-right: 3px;
+          
 }
 
 .about-btn2:hover{
@@ -1201,7 +1207,7 @@ nav{
     border: 2px solid transparent;
   transition: all 0.4s;
   cursor: pointer;
-   transition: all 0.5s ease-in-out;
+   transition: all 0.3s ease-in-out;
 
 }
 
@@ -1220,9 +1226,9 @@ nav{
     /* font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-style: normal;
+    font-style: normal; */
    
-     transition: all 0.5s ease-in-out; */
+     transition: all 0.5s ease-in-out;
       font-family: "Varela Round", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -1461,6 +1467,9 @@ nav{
           display: flex;
           justify-content: center;
           align-items: center;
+           font-family: "Varela Round", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
           
         
 }
@@ -1497,9 +1506,15 @@ nav{
 .collegename h3 {
         
            color: white;
-          font-family: "Varela Round", sans-serif;
-  /* font-weight: 400; */
-  font-style: normal;
+          /* font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+
+  font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 
 }
@@ -1560,6 +1575,96 @@ nav{
   /* font-weight: 400; */
   font-style: normal;
 }
+
+
+
+.course{
+
+            border: 1px solid rgb(255, 255, 255,0.1);
+          padding: 30px;
+          width: 80%;
+          border-radius: 30px;
+          background-color: rgb(128, 128, 128,0.1);
+          backdrop-filter: blur(10px);
+            background-color:  rgba(0, 58, 71, 0.07);;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s;
+
+    margin-top: 50px;
+
+     display: flex;
+     flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.course:hover{
+           box-shadow: 0px 0px 5px rgb(238, 130, 238,0.4);
+}
+.course h1{
+         font-size: 30px;
+         color: rgb(184, 181, 181);
+            font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+ 
+ 
+}
+
+.course-box{
+
+          width: 100%;
+          /* border: 1px solid white; */
+          padding: 20px;
+          margin-top: 20px;
+          display: flex;
+          gap: 20px;
+
+}
+
+.dev{
+         padding: 20px;
+         width: 100%;
+       
+         border:1px solid rgb(255, 255, 255,0.1) ;
+         border-radius: 20px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         transition: all 0.3s;
+        
+
+}
+
+.dev i{
+          font-size: 30px;
+          color: rgb(238, 130, 238,0.8);
+}
+
+.dev h4{
+          color: grey;
+          margin-top: 30px;
+           font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dev p {
+         color: rgb(238, 130, 238,0.5);
+          font-family: "Varela Round", sans-serif;
+  /* font-weight: 500; */
+  font-style: normal;
+}
+
+.dev:hover{
+        box-shadow:0px 0px 5px rgba(239, 126, 229, 0.5);
+        transform: scale(1.05);
+}
+
 
 
 
@@ -1811,6 +1916,16 @@ nav{
        .skillbox h2{
               font-size: 22px;
        }
+
+
+
+       /* ---------- Education ------------ */
+
+       .college{
+          width: 100%;
+       }
+
+     
  
    
 
@@ -1934,6 +2049,18 @@ nav{
          padding-bottom: 50px;
 }
 
+
+  .course-box{
+         display: flex;
+         flex-direction: column;
+         padding: 0px;
+       }
+
+       .course{
+
+        
+
+       }
 
       
 }
@@ -2426,6 +2553,8 @@ nav{
 
 
 
+
+
      /* Education  */
 
       .collegename{
@@ -2475,7 +2604,7 @@ nav{
           /* width: 100px; */
          border: none;
          background: none;
-         width: 70px;
+         width: 80px;
          
          
 }
@@ -2500,7 +2629,7 @@ nav{
           width: 90px;
          background: none;
          border: none;
-         width: 55px;
+         width: 60px;
         
 }
 
@@ -2542,6 +2671,14 @@ nav{
           margin-top: 15px;
 }
       
+
+ .course h1{
+          font-size: 25px;
+ }
+
+ .dev h4{
+          font-size: 20px
+ }
 }
 
 
