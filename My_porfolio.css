@@ -10,6 +10,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 
 
 
@@ -678,9 +680,12 @@ nav{
 
         color: white;
         
-  font-family: "Jost", sans-serif;
+  /* font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal; */
+   font-family: "Varela Round", sans-serif;
+  font-weight: 600;
   font-style: normal;
   transition: all 0.6s ease-in-out;
 
@@ -1212,12 +1217,15 @@ nav{
     background-clip: text;
     color: transparent;
     color: white;
-    font-family: "Jost", sans-serif;
+    /* font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    /* transition: all 0.6s ease-in-out; */
-     transition: all 0.5s ease-in-out;
+   
+     transition: all 0.5s ease-in-out; */
+      font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 
 }
 
@@ -1364,12 +1372,16 @@ nav{
 
 .education-h1{
            color: white;
-           font-family: "Jost", sans-serif;
+           /* font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight:600;
-  font-style: normal;
+  font-style: normal; */
   font-size: 50px;
   padding-bottom: 30px;
+   font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
   
 }
 
@@ -1449,6 +1461,7 @@ nav{
           display: flex;
           justify-content: center;
           align-items: center;
+          
         
 }
 
@@ -1473,21 +1486,20 @@ nav{
          border-radius: 30px;
          height: 30px;
          border: 1px solid rgb(211, 211, 211,0.2);
-         /* display: flex;
-         justify-content: center;
-         align-items: center; */
-         /* padding: 2px; */
+        
+
+          font-family: "Varela Round", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
 }
 
 
 .collegename h3 {
         
            color: white;
-           font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
+          font-family: "Varela Round", sans-serif;
+  /* font-weight: 400; */
   font-style: normal;
-  font-size: 25px;
 
 
 }
@@ -1495,6 +1507,10 @@ nav{
 .education-content p{
          margin: 0px;
          margin-top: 3px;
+          font-family: "Varela Round", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
+ 
 }
 
 .edu-i{
@@ -1523,6 +1539,9 @@ nav{
           height: 25px;
           width: 110px;
           font-size: 14px;
+           font-family: "Varela Round", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
           
         
 }
@@ -1537,6 +1556,9 @@ nav{
            font-size: 14px;
            height: 25px;
            width: 100px;
+            font-family: "Varela Round", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
 }
 
 
@@ -2450,8 +2472,10 @@ nav{
 .college-cgpa button{
           height: 25px;
           font-size: 13px;
-          width: 100px;
-          padding-top: 2px;
+          /* width: 100px; */
+         border: none;
+         background: none;
+         width: 70px;
          
          
 }
@@ -2474,10 +2498,9 @@ nav{
           font-size: 12px;
           height: 20px;
           width: 90px;
-           display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 2px;
+         background: none;
+         border: none;
+         width: 55px;
         
 }
 
@@ -2513,6 +2536,10 @@ nav{
             justify-content: center;
             align-items: center;
             padding-top: 2px;
+}
+
+.college-cgpa{
+          margin-top: 15px;
 }
       
 }
