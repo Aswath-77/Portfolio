@@ -2187,6 +2187,7 @@ nav{
               border-radius: 7px;
               padding-bottom: 0px;
       }
+     
 
       .home-iconbox{
               gap: 10px !important;
@@ -2275,6 +2276,10 @@ nav{
 
 
 }
+
+ .home-iconbox button:active{
+         transform: scale(0.5);
+      }
 
 .round3{
         width: 260px;
@@ -2563,6 +2568,7 @@ nav{
           flex-direction: column;
           justify-content: flex-start;
           margin-bottom: 20px;
+          transition: all 0.3s ease-in-out;
 } 
 
 .college{
@@ -2586,6 +2592,7 @@ nav{
 
 .collegename span{
           font-size: 17px;
+          transition: all 0.3s ease-in-out;
 }
 
 .collegename button{
@@ -2597,6 +2604,7 @@ nav{
       
 .education-content p{
           font-size: 14px;
+          transition: all 0.3s ease-in-out;
 }
 
 .college-cgpa button{
@@ -2606,7 +2614,7 @@ nav{
          border: none;
          background: none;
          width: 80px;
-         
+         transition: all 0.3s ease-in-out;
          
 }
 
@@ -2670,15 +2678,18 @@ nav{
 
 .college-cgpa{
           margin-top: 15px;
+          transition: all 0.3s ease-in-out;
 }
       
 
  .course h1{
           font-size: 25px;
+          transition: all 0.3s ease-in-out;
  }
 
  .dev h4{
-          font-size: 20px
+          font-size: 20px;
+          transition: all 0.3s ease-in-out;
  }
 }
 
