@@ -2496,7 +2496,7 @@ nav{
 
       .skill-category {
              padding: 35px;
-             padding-top: 60px;
+             padding-top: 70px;
       }
 
       .skill-icon{
@@ -2556,6 +2556,7 @@ nav{
 
 .education-h1{
           font-size: 40px;
+          padding-bottom: 50px;
 }
 
 .collegename h3{
@@ -2630,7 +2631,7 @@ nav{
 
 .education-content{
 
-           margin-top: 0px;
+           margin-top: 20px;
 }
 
 .schoolname span{
@@ -2649,19 +2650,38 @@ nav{
 }
 
 .college-cgpa{
-          margin-top: 15px;
+          margin-top: 20px;
           transition: all 0.3s ease-in-out;
 }
       
+.school-per{
+         margin-top: 20px;
+}
 
  .course h1{
-          font-size: 25px;
+          font-size: 23px;
           transition: all 0.3s ease-in-out;
  }
 
  .dev h4{
-          font-size: 20px;
+          font-size: 17px;
           transition: all 0.3s ease-in-out;
+ }
+
+ .dev{
+
+          display: flex;
+          justify-content:flex-start;
+          align-items: flex-start;
+ }
+
+ .course-p{
+          font-size: 13px;
+ }
+
+ .dev i{
+         font-size: 25px;
+         color: rgb(238, 130, 238, 0.5);
  }
 
 
