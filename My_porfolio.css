@@ -1927,6 +1927,9 @@ nav{
 
         text-decoration: none;
         color: rgb(158, 158, 158);
+         font-family: "Varela Round", sans-serif;
+ 
+  font-style: normal;
        
            
 } 
@@ -3077,7 +3080,8 @@ nav{
       }
 
       .project-live-demo a{
-          font-size: 14px;
+          font-size: 15px;
+          margin-top: 10px;
       }
 
       .project-box:hover{
