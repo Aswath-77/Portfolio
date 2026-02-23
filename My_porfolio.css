@@ -1366,6 +1366,7 @@ nav{
               justify-content: center;
               align-items: center;
               flex-direction: column;
+                 transition: all 0.5s ease-in-out;
 
               
            
@@ -1425,6 +1426,7 @@ nav{
             background-color:  rgba(0, 58, 71, 0.07);;
     backdrop-filter: blur(10px);
     transition: all 0.5s;
+       transition: all 0.5s ease-in-out;
           
           
 }
@@ -1501,6 +1503,7 @@ nav{
           font-family: "Varela Round", sans-serif;
   /* font-weight: 400; */
   font-style: normal;
+     transition: all 0.5s ease-in-out;
 }
 
 
@@ -1516,6 +1519,7 @@ nav{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+       transition: all 0.5s ease-in-out;
 
 
 }
@@ -1609,6 +1613,7 @@ nav{
             font-family: "Varela Round", sans-serif;
   font-weight: 500;
   font-style: normal;
+     transition: all 0.5s ease-in-out;
 
  
  
@@ -1622,6 +1627,7 @@ nav{
           margin-top: 20px;
           display: flex;
           gap: 20px;
+             transition: all 0.5s ease-in-out;
 
 }
 
@@ -1659,6 +1665,7 @@ nav{
           font-family: "Varela Round", sans-serif;
   /* font-weight: 500; */
   font-style: normal;
+     transition: all 0.5s ease-in-out;
 }
 
 .dev:hover{
@@ -1678,7 +1685,7 @@ nav{
             width: 100%;
              padding: 50px;
               background-image: radial-gradient( rgb(1, 22, 42) 5% , black );
-              border: 1px solid white;
+              /* border: 1px solid white; */
               display: flex;
               justify-content: center;
               align-items: center;
@@ -1690,7 +1697,7 @@ nav{
            color: white;
           
   font-size: 50px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
    font-family: "Varela Round", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -1710,25 +1717,236 @@ nav{
 
 .project-content{
 
-         width: 100%;
-         padding: 10px;
-         border: 1px solid white;
+         width: 90%;
+         padding: 50px;
+         /* border: 1px solid white; */
          margin-top: 50px;
          display: grid;
-         gap: 30px;
+         gap: 50px;
+       
          /* flex-wrap: wrap; */
-         grid-template-columns: auto auto auto;
+         grid-template-columns: auto auto ;
 
 }
 
 .project-box{
 
       display: grid;
+     
 
      
-           border: 1px solid yellow;
+           /* border: 1px solid yellow; */
            padding: 20px;
+           height: 700px;
+           border-radius: 10px;
+            /* background-color: rgb(0, 207, 255,0.1); */
+              border: 1px solid rgb(0, 207, 255,0.2);
+               backdrop-filter: blur(10px);
+                   background-color: rgba(0, 58, 71, 0.07);
+
+
+                   transition: all 0.5s ease-in-out;
 }
+
+.project-box:hover{
+
+           box-shadow: 0px 0px 10px rgb(0, 44, 57);
+           transform: scale(1.02);
+}
+
+
+
+.project-img-box{
+          width: 100%;
+          height: 300px;
+          /* border: 1px solid red; */
+          border-radius: 10px;
+          overflow: hidden;
+          position: relative;
+          
+         
+         
+}
+
+.project-img-box:hover{
+
+           box-shadow: 0px 0px 3px rgb(0, 207, 255,0.2);
+}
+
+
+
+
+
+
+.project-img-box img{
+         
+         width: 100%;
+         height: 100%;
+         transition: all 0.5s;
+         filter: brightness(70%);
+}
+
+
+
+.project-links{
+           width: 100%;
+          height: 300px;
+          /* border: 1px solid red; */
+          border-radius: 10px;
+         
+          position: absolute;
+          top: 0;
+          left: 0;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          background: transparent;
+          /* display: none; */
+          transition: all 0.5s;
+          opacity: 0;
+}
+
+.project-links i{
+
+           font-size: 35px;
+           color: rgb(201, 241, 241);
+           cursor: pointer;
+           transition: all 0.5s;
+         
+}
+
+.project-img-box:hover .project-links{
+          
+        opacity: 1;
+        backdrop-filter: blur(3px);
+}
+
+.project-img-box:hover img{
+
+           transform: scale(1.2);
+           opacity: 0.4;
+}
+
+
+.project-links i:hover{
+           color: rgb(171, 170, 170);
+           transform: scale(1.2);
+}
+
+.project-links i:active{
+          transform: scale(0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-text-box{
+
+           width: 100%;
+           height: 350px;
+        
+           /* border: 1px solid white; */
+           border-radius: 10px;
+           padding: 10px;
+           color: white;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+            transition: all 0.5s ease-in-out;
+          
+           
+}
+
+.project-text-box h2{
+          font-family: "Varela Round", sans-serif;
+ 
+  font-style: normal;
+}
+
+.project-text-box p{
+         color: rgb(150, 150, 150);
+         font-size: 17px;
+
+          font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+     transition: all 0.5s ease-in-out;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-badge{
+         padding: 8px;
+        background-color: rgb(128, 128, 128,0.1);
+        border: 1px solid rgb(128, 128, 128,0.3);
+        border-radius: 5px;
+        color: rgb(151, 151, 151);
+        font-size: 14px;
+        transition: all 0.2s;
+         font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+     transition: all 0.5s ease-in-out;
+
+    
+}
+
+.tech-badge:hover {
+
+            border: 1px solid rgb(0, 207, 255,0.2);
+             /* background-color: rgb(0, 207, 255,0.1); */
+          backdrop-filter: blur(3px);
+          color: rgb(0, 207, 255,0.7);
+}
+
+
+.project-live-demo{
+          display: flex;
+          gap: 20px;
+          margin-top: 10px;
+}
+.project-live-demo a{
+
+        text-decoration: none;
+        color: rgb(158, 158, 158);
+       
+           
+} 
+
+.project-live-demo a:hover{
+         color: rgb(200, 200, 200);
+
+}
+
+.project-live-demo .live{
+          color: rgb(0, 207, 255, 0.7);
+}
+
+.project-live-demo .live:hover{
+          color: rgb(0, 207, 255, 0.9);
+}
+
+
+
+
 
 
 
@@ -1990,6 +2208,18 @@ nav{
        }
 
      
+
+       /* --------------- Project ------- ------- */
+
+
+       .project-container{
+          padding: 0px;
+       }
+
+       .project-content{
+          width: 100%;
+          padding: 30px;
+       }
  
    
 
@@ -2125,6 +2355,53 @@ nav{
         
 
        }
+
+       /* -------------- Project -------------- */
+
+ 
+        .project-content{
+                grid-template-columns: auto;
+                padding: 0px;
+        }
+
+        .project-container{
+                  padding: 30px;
+                  padding-top: 50px;
+                  padding-bottom: 50px;
+        }
+
+        .project-title{
+                   font-size: 45px;
+        }
+
+        .project-box{
+                  padding: 50px;
+                  height: 650px;
+        }
+
+        .project-img-box{
+                 height: 260px;
+
+        }
+
+        .project-links{
+                  height: 260px;
+        }
+
+        .project-text-box{
+
+                 height: 280px;
+        }
+
+        .project-text-box p{
+                  font-size: 16px;
+
+        }
+
+        .tech-badge{
+                 font-size: 13px;
+        }
+
 
       
 }
@@ -2759,6 +3036,59 @@ nav{
       }
 
       /* Home  */
+
+
+
+      /* ------------ Project ------------ */
+
+      .project-title{
+          font-size: 36px;
+      }
+
+      .project-box{
+         padding: 15px;
+         height: 590px;
+      }
+
+      .project-img-box{
+          height: 220px;
+      }
+
+      .project-links{
+         height: 220px;
+      }
+
+      .project-text-box p{
+
+          font-size: 14px;
+      }
+
+      .tech-badge{
+         font-size: 13px;
+         padding: 5px;
+         pointer-events: none;
+        
+      }
+
+      .project-text-box{
+
+           height: max-content;
+           gap: 12px;
+      }
+
+      .project-live-demo a{
+          font-size: 14px;
+      }
+
+      .project-box:hover{
+
+        pointer-events: none;
+        transform: scale(1);
+          
+      }
+
+      
+      
 
 
 }
