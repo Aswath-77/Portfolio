@@ -1950,6 +1950,40 @@ nav{
 
 
 
+/* =========== Contact Page ============== */
+
+.contact{
+
+            width: 100%;
+             padding: 50px;
+              background-image: radial-gradient( rgb(1, 22, 42) 5% , black );
+              border: 1px solid white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+}
+
+.contact-title span{
+
+           border-bottom: 2px solid rgb(0, 207, 255, 0.6);
+           padding-bottom: 20px;
+}
+
+.contact-title{
+           color: white;
+          
+  font-size: 50px;
+  padding-bottom: 30px;
+   font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+  
+}
+
+
+
 
 
 
