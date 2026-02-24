@@ -1425,16 +1425,16 @@ nav{
           backdrop-filter: blur(10px);
             background-color:  rgba(0, 58, 71, 0.07);;
     backdrop-filter: blur(10px);
-    transition: all 0.5s;
-       transition: all 0.5s ease-in-out;
+    transition: all 0.3s;
+       transition: all 0.3s ease-in-out;
           
           
 }
 
 .college:hover{
 
-          box-shadow: 0px 0px 5px rgb(0, 125, 123);
-          transform: translateX(10px);
+          box-shadow: 0px 0px 5px rgb(0, 125, 123,0.5);
+          transform: translateY(-5px);
 }
 
 .collegename{
@@ -1503,7 +1503,7 @@ nav{
           font-family: "Varela Round", sans-serif;
   /* font-weight: 400; */
   font-style: normal;
-     transition: all 0.5s ease-in-out;
+     transition: all 0.3s ease-in-out;
 }
 
 
@@ -1613,7 +1613,7 @@ nav{
             font-family: "Varela Round", sans-serif;
   font-weight: 500;
   font-style: normal;
-     transition: all 0.5s ease-in-out;
+     transition: all 0.3s ease-in-out;
 
  
  
@@ -1665,12 +1665,12 @@ nav{
           font-family: "Varela Round", sans-serif;
   /* font-weight: 500; */
   font-style: normal;
-     transition: all 0.5s ease-in-out;
+     transition: all 0.3s ease-in-out;
 }
 
 .dev:hover{
-        box-shadow:0px 0px 5px rgba(239, 126, 229, 0.5);
-        transform: scale(1.05);
+        box-shadow:0px 0px 5px rgba(239, 126, 229, 0.2);
+        transform: scale(1.01);
 }
 
 
@@ -1930,9 +1930,17 @@ nav{
          font-family: "Varela Round", sans-serif;
  
   font-style: normal;
+  transition: all 0.3s;
        
            
 } 
+
+.project-live-demo a:active{
+
+          transform: scale(0.6);
+}
+
+
 
 .project-live-demo a:hover{
          color: rgb(200, 200, 200);
@@ -1982,7 +1990,182 @@ nav{
   
 }
 
+.contact-p{
+          color: rgb(180, 179, 179);
+           font-family: "Varela Round", sans-serif;
+ 
+  font-style: normal;
+}
 
+.contact-container{
+
+          padding: 10px;
+          border: 1px solid red;
+          width: 90%;
+         display: flex;
+          gap: 50px;
+          margin-top: 50px;
+
+}
+
+.contact-box{
+
+           /* width: 100%; */
+        
+           border: 1px solid yellow;
+           padding: 10px;
+}
+
+.contact-box1{
+          width: 45%;
+          padding: 30px;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+         gap: 30px;
+
+}
+
+.contact-box2{
+          width: 55%;
+}
+
+.lets-connect{
+          color:white;
+           font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.lets-connect-p{
+        color: rgb(151, 150, 150) ;
+        font-family: "Varela Round", sans-serif;
+ 
+  font-style: normal;
+  font-size: 15px;
+  width: 90%;
+}
+
+
+.contact-mail{
+
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(0, 47, 58, 0.07);
+    backdrop-filter: blur(10px);
+        border: 1px solid rgb(255, 255, 255, 0.1);
+        border-radius: 20px;
+
+        display: flex;
+        /* gap: 10px; */
+
+        transition: all 0.2s;
+
+}
+
+.contact-mail:hover{
+
+      
+          background-color: rgb(0, 35, 43,0.1);
+          box-shadow: 0px 0px 10px rgb(0, 75, 75);
+           
+}
+
+.contact-icon{
+          height: 70px;
+          width: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          /* border: 1px solid white; */
+}
+
+.contact-icon i{
+          font-size: 25px;
+          color: rgb(1, 134, 163) ;
+}
+
+.contact-icon-text{
+         display: flex;
+         flex-direction: column;
+         align-items: start;
+         justify-content: center;
+}
+
+.contact-icon-text h4{
+          color: rgb(199, 199, 199);
+           font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px;
+    font-size:22px ;
+    margin-left: 0px;
+}
+
+.contact-icon-text a{
+          color: grey;
+          text-decoration: none;
+          font-family: "Varela Round", sans-serif;
+ 
+  font-style: normal;
+  font-size: 15px;
+  /* margin-left: 5px; */
+  transition: all 0.3s;
+}
+
+.contact-icon-text a:active{
+         transform: scale(0.7);
+}
+
+
+.connect_with_me{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+}
+
+
+.connect_with_me h5{
+          color: rgb(184, 184, 184);
+
+}
+
+.connect_me button{
+         
+            /* padding: 10px; */
+            font-size: 15px;
+            color: rgb(162, 162, 162);
+            background: none;
+            border: none;
+             background-color: rgba(0, 67, 82, 0.07);
+    backdrop-filter: blur(10px);
+        border: 1px solid rgb(255, 255, 255, 0.1);
+        border-radius: 5px;
+        margin: 3px;
+        height: 40px;
+        width: 40px;
+        transition: all 0.3s;
+          
+}
+
+.connect_me button:active{
+          transform: scale(0.6);
+}
+
+.connect_me a{
+          text-decoration: none;
+}
+
+.connect_me button:hover{
+
+         border: 1px solid rgba(136, 136, 136, 0.3);
+         color: rgb(0, 99, 99);
+         box-shadow: 0px 0px 10px rgb(0, 125, 125);
+          
+}
 
 
 
