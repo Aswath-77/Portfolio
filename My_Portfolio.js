@@ -77,6 +77,16 @@
 
            if(id.value.trim()==""){
 
+        //      if(errorMsg[serial].innerHTML = message){
+
+        //           alert("Please Fill out of this ")
+        //    }
+
+        //    else{
+
+        //         alert("Sended Successfully ......")
+        //    }
+
              errorMsg[serial].innerHTML = message; 
              
                id.style.border = " 1.5px solid red ";
@@ -86,6 +96,8 @@
               // icons 
                failureIcon[serial].style.opacity = "1";
                successIcon[serial].style.opacity = "0";
+
+               
            }
            else{
 
@@ -97,16 +109,198 @@
                // icons
                failureIcon[serial].style.opacity = "0";
                successIcon[serial].style.opacity = "1";
+
+                
+               
+              
+
+                    
+    
+
                
            }
+
+          
     }
 
 
 
 
 
+    
+
+
+// Git hub Button =======================
+    
+console.log(window.location);
+
+
+    function git(){
+           
+          window.location.href = "https://github.com/Aswath-77";
+          
+    }
+
+  
+// LinkedIn Button ========================
+
+
+  function linkedin(){
+           
+          window.location.href = "https://www.linkedin.com/in/aswathj/";
+         
+          
+    }
+    
+
+
+
+// Twitter Button ========================
+
+
+  function twitter(){
+           
+          window.location.href = "";
+         
+          
+    }    
+
+
+// Mail Button ========================
+
+
+  function mail(){
+           
+          window.location.href = "mailto:aswath102002@gmail.com";
+         
+          
+    }  
+
+
+
+    // Home Button ========================
+
+
+  function home_bt(){
+           
+          window.location.href = "file:///C:/Frontend/Portfolio/index.html#home";
+         
+          
+    }  
+
+
+     // About Button ========================
+
+
+  function about_bt(){
+           
+          window.location.href = "file:///C:/Frontend/Portfolio/index.html#about";
+         
+          
+    }  
+
+
+
+       // Skills Button ========================
+
+
+  function skills_bt(){
+           
+          window.location.href = "file:///C:/Frontend/Portfolio/index.html#skills";
+         
+          
+    }  
+
 
     
+       // Education Button ========================
+
+
+  function education_bt(){
+           
+          window.location.href = "file:///C:/Frontend/Portfolio/index.html#education";
+         
+          
+    }  
+
+
+
+
+     
+       // Projects Button ========================
+
+
+  function projects_bt(){
+           
+          window.location.href = "file:///C:/Frontend/Portfolio/index.html#project";
+         
+          
+    }  
+
+
+         // Contact Button ========================
+
+
+  function contact_bt(){
+           
+          window.location.href = "file:///C:/Frontend/Portfolio/index.html#contact";
+         
+          
+    }  
+
+
+
+
+    // Download Resume -====================
+
+    function download_resume(){
+
+          window.location.href="./Aswath_resume.pdf";
+          
+    }
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
