@@ -108,10 +108,10 @@ nav{
 
 .nav-link:hover{
        color: rgb(0, 200, 255) !important;
-       padding-left: 15px !important;
-       padding-right: 15px !important;
+       /* padding-left: 5px !important;
+       padding-right: 5px !important; */
        transform: scale(1.1);
-       /* transition: all 0.1s; */
+      
       
 }
 
@@ -121,12 +121,46 @@ nav{
 
      font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 350;
   font-style: normal;
  
-  transition: all 0.6s ease-in-out !important;
-   transition: all 0.3s !important;
+  transition: all 0.3s ease-in-out !important;
+
 }
+
+
+/* .nav_head::before{
+
+          height: 5px;
+          width: 0%;
+          content: "";
+          position: absolute;
+          left: 0px;
+          bottom: 5px;
+          transition: all 1s ;
+          background-color: green;
+}
+
+.nav_head:hover::before{
+
+          width: 100%;
+}
+
+.nav_head::after{
+
+          height: 5px;
+          width: 0%;
+          content: "";
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          transition: all 1s;
+          background-color: white;
+}
+
+.nav_head:hover::after{
+         width: 100%;
+} */
 
 
 
@@ -244,6 +278,8 @@ nav{
 /* rgb:  rgb(0,207,255) */
 
 /* Hex : #00CFFF; */
+
+
 
 
 
@@ -2448,8 +2484,12 @@ input::marker{
 .foot-a:hover{
 
             color: rgb(0, 160, 185);
-            transform: translateX(10px);
+          
 }
+
+/* .foot-a:active{
+          transform: scale(0.7);
+} */
 
 
 .foot-box2 h3{
@@ -2544,6 +2584,7 @@ input::marker{
           transform: scale(0.6);
 
 }
+
 
 
 
@@ -3317,7 +3358,7 @@ input::marker{
 
  .home-iconbox button:hover{
 
-    background-color: rgb(0,207,255,0.1);
+   background-color: rgb(128, 128, 128, 0.2);
     border: 1px solid rgb(0,207,255,0);
      -webkit-backdrop-filter: blur(10px);
      backdrop-filter: blur(10px);
@@ -3330,6 +3371,9 @@ input::marker{
 
  .home-iconbox button:active{
          transform: scale(0.6);
+          transform: scale(0.6);
+          background-color: rgb(128, 128, 128,0.2);
+          color: black;
       }
 
 .round3{
@@ -3372,7 +3416,21 @@ input::marker{
 
     .home-btn .bt2{
             border: 1px solid rgb(211, 211, 211, 0.1);
+            background-color: rgb(128, 128, 128, 0.2);
     }
+
+    .home-btn .bt2:hover{
+
+          border: 1px solid rgb(211, 211, 211, 0.1);
+            background-color: rgb(128, 128, 128, 0.2);
+          
+    }
+
+    .home-btn .bt2:active{
+          transform: scale(0.6);
+    }
+
+
 
   
 
@@ -3442,6 +3500,9 @@ input::marker{
             
       }
       
+      .about-btn2:active{
+            transform: scale(0.6);
+      }
       .about-btn2{
               margin-left: 5px;
               width: 150px;
@@ -3452,6 +3513,13 @@ input::marker{
     /* border: 1px solid rgb(211, 211, 211, 0.4); */
     color: whitesmoke;
       }
+
+      .about-btn2:hover{
+           border: 1px solid rgb(211, 211, 211, 0.1);
+        background-color: rgb(128, 128, 128, 0.2);
+      }
+
+      
 
       .about-content p span{
               font-size: 16px;
@@ -3743,6 +3811,12 @@ input::marker{
       /* Home  */
 
 
+      .home-btn a .bt2:active{
+
+        transform: scale(0.6);
+
+      }
+
 
       /* ------------ Project ------------ */
 
@@ -3771,7 +3845,7 @@ input::marker{
       .tech-badge{
          font-size: 13px;
          padding: 5px;
-         pointer-events: none;
+         
         
       }
 
@@ -3788,7 +3862,7 @@ input::marker{
 
       .project-box:hover{
 
-        pointer-events: none;
+       
         transform: scale(1);
           
       }
@@ -4027,9 +4101,7 @@ input::marker{
 
  }
 
- /* .foot-box3 button {
-          pointer-events: none;
- } */
+
 
  
 
@@ -4050,7 +4122,7 @@ input::marker{
   
 
 
-       .foot-box3 button:hover{
+.foot-box3 button:hover{
 
          transform: translateY(0px);
          box-shadow: 0px 0px 0px rgb(6, 6, 6);
@@ -4064,10 +4136,15 @@ input::marker{
 
 }
 
-.foot-box2 a:hover{
+.foot-a:hover{
 
           transform: translateX(0px);
           color: none;
+}
+
+.foot-a:active{
+        transform: scale(0.7);
+          
 }
 
 .footer-btn-box button:active{
@@ -4098,6 +4175,16 @@ input::marker{
 
           transform: scale(0.6);
   }
+
+  .foot-a:hover{
+         color: rgb(149, 147, 147);
+  }
+
+
+  .about-btn2:active{
+          transform: scale(0.6);
+  }
+ 
 
 
 }
