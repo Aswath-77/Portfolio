@@ -1356,6 +1356,13 @@ nav{
 }
 
 
+.skill-card h4{
+
+        display: flex;
+       justify-content: space-between;
+        
+}
+
 
 /* ------------ Education Page ------------- */
 
@@ -3304,20 +3311,7 @@ input::marker{
       }
 
 
-     .home-iconbox button:hover{
-
-  
-     /* box-shadow:0px 0px 0px black;
-
-     transform: translateY(0px);
-     border: 1px solid rgb(109, 108, 108, 0.5);
-    background-color: rgb(128, 128, 128, 0.2); */
     
-    pointer-events: none;
-   
-
-
-}
 
 
 
@@ -3335,7 +3329,7 @@ input::marker{
 } 
 
  .home-iconbox button:active{
-         transform: scale(0.5);
+         transform: scale(0.6);
       }
 
 .round3{
@@ -3379,6 +3373,8 @@ input::marker{
     .home-btn .bt2{
             border: 1px solid rgb(211, 211, 211, 0.1);
     }
+
+  
 
       /* ----- About Page -------- */
 
@@ -3736,8 +3732,13 @@ input::marker{
  /* Home  */
 
  .home-iconbox button:active{
-         transform: scale(0.5);
+         transform: scale(0.6);
       }
+
+      .home-btn .bt2:active{
+
+          transform: scale(0.6);
+  }
 
       /* Home  */
 
@@ -3840,12 +3841,22 @@ input::marker{
 
       }
 
-      .connect_me button:hover{
-         pointer-events: none;
+    
 
         
-      }
+      .connect_me button:hover{
 
+         border: 0px solid rgba(136, 136, 136, 0.3);
+       color: rgb(162, 162, 162);
+         box-shadow: 0px 0px 0px rgb(26, 27, 27);
+         transform: translateY(0px);
+         background-color:none;
+          /* color: black; */
+}
+
+ 
+
+      
      
 
 
@@ -3936,6 +3947,21 @@ input::marker{
               }
 
 
+  .connect_me button:active{
+        
+
+          transform: scale(0.6);
+          background-color: rgb(128, 128, 128,0.2);
+          color: black;
+                
+       }
+
+       .connect_me button:hover{
+              background-color: rgba(0, 67, 82, 0.07);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.1)
+       }
+
 
 
 
@@ -4001,9 +4027,11 @@ input::marker{
 
  }
 
- .foot-box3 button {
+ /* .foot-box3 button {
           pointer-events: none;
- }
+ } */
+
+ 
 
  .foot-box3 button:active{
            transform: scale(0.6);
@@ -4019,7 +4047,36 @@ input::marker{
           font-size: 11px;
  }
 
+  
 
+
+       .foot-box3 button:hover{
+
+         transform: translateY(0px);
+         box-shadow: 0px 0px 0px rgb(6, 6, 6);
+
+           
+}
+
+.foot-box2 a:active {
+
+        transform: scale(0.6);
+
+}
+
+.foot-box2 a:hover{
+
+          transform: translateX(0px);
+          color: none;
+}
+
+.footer-btn-box button:active{
+
+          transform: scale(0.6);
+          background-color: rgb(128, 128, 128,0.2);
+          color: black;
+                
+       }
 
 
 
@@ -4032,6 +4089,15 @@ input::marker{
                   font-size: 14px;
               }
               
+
+
+
+              /* ----- Home ------ */
+
+              .bt2:active{
+
+          transform: scale(0.6);
+  }
 
 
 }
